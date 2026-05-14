@@ -16,7 +16,7 @@ BuildRequires:  pkgconfig(sqlite3)
 
 # Upstream defaults to LuaJIT (USE_LUAJIT ?= 1) and discovers it via pkg-config.
 BuildRequires:  pkgconfig(luajit)
-BuildRequires:  lua-filesystem
+BuildRequires:  lua5.1-filesystem
 
 %description
 Luakit is a highly configurable browser framework based on the WebKit web content engine
